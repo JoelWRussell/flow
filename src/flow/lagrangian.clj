@@ -96,7 +96,7 @@
   (let [[pd fake-pd1] prepared-data
         [true-score true-norm] (lagrange-score-internal pd interval vars d-vars expr)
         [fake-score fake-norm] (lagrange-score-internal fake-pd1 interval vars d-vars expr)
-        ;;_ (println true-score fake-score true-norm)
+        (println true-score fake-score true-norm)
         ]
     (Math/log
       (* (/ (+ 1e-10 true-score) (+ 1e-10 fake-score))
