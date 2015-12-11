@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4fdc523-96c2-41c4-a30d-4b17cf28b7cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__algebolic_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_kdtree_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_csv_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__criterium_0_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__darwin_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__de_kotka_lazymap_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__gorilla_plot_0_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__gorilla_renderable_2_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_7_0_alpha5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_data_codec_0_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__potemkin_0_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__prismatic_plumbing_0_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__prismatic_schema_0_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__semantic_csv_0_1_0_alpha1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/flow.iml" afterPath="$PROJECT_DIR$/.idea/flow.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gorilla-port" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.nrepl-port" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pendulumruns/pendulums.nb" afterPath="$PROJECT_DIR$/pendulumruns/pendulums.nb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flow/lagrangian.clj" afterPath="$PROJECT_DIR$/src/flow/lagrangian.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws/joel_double_pendulum.clj" afterPath="$PROJECT_DIR$/ws/joel_double_pendulum.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws/joel_single_pendulum.clj" afterPath="$PROJECT_DIR$/ws/joel_single_pendulum.clj" />
     </list>
     <ignored path="flow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +43,8 @@
       <file leaf-file-name="lagrangian.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/flow/lagrangian.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73568285">
-              <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.845815">
+              <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -83,9 +69,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="264" />
+    <option name="x" value="406" />
     <option name="y" value="23" />
-    <option name="width" value="1143" />
+    <option name="width" value="1002" />
     <option name="height" value="801" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -193,8 +179,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Leiningen.Gorilla Server ">
+  <component name="RunManager" selected="Clojure REPL.Connect to Gorilla (flow)">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -221,6 +210,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -291,7 +287,21 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="Gorilla Server " type="LeiningenRunConfiguration" factoryName="Leiningen">
+    <configuration default="false" name="Connect to Gorilla (flow)" type="ClojureREPL" factoryName="Remote">
+      <setting name="host" value=" http://127.0.0.1:53961/worksheet.html" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="flow" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Gorilla REPL" type="ClojureREPL" factoryName="Remote">
+      <setting name="host" value="http://127.0.0.1:50748/worksheet.html" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="flow" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Gorilla server " type="LeiningenRunConfiguration" factoryName="Leiningen">
       <LeiningenRunnerParameters>
         <option name="myGoals">
           <list>
@@ -304,8 +314,10 @@
       </LeiningenRunnerParameters>
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Leiningen.Gorilla Server " />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.Connect to Gorilla (flow)" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure REPL.Gorilla REPL" />
+      <item index="2" class="java.lang.String" itemvalue="Leiningen.Gorilla server " />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -322,7 +334,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="264" y="23" width="1143" height="801" extended-state="0" />
+    <frame x="406" y="23" width="1002" height="801" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -336,7 +348,7 @@
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20799273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23854166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24977294" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -573,11 +585,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/flow/lagrangian.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73568285">
-          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.845815">
+          <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>flow</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Leiningen: algebolic:1.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
