@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4fdc523-96c2-41c4-a30d-4b17cf28b7cc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gorilla-port" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.nrepl-port" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pendulumruns/pendulums.nb" afterPath="$PROJECT_DIR$/pendulumruns/pendulums.nb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flow/lagrangian.clj" afterPath="$PROJECT_DIR$/src/flow/lagrangian.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws/joel_double_pendulum.clj" afterPath="$PROJECT_DIR$/ws/joel_double_pendulum.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws/joel_single_pendulum.clj" afterPath="$PROJECT_DIR$/ws/joel_single_pendulum.clj" />
-    </list>
+    <list default="true" id="a4fdc523-96c2-41c4-a30d-4b17cf28b7cc" name="Default" comment="" />
     <ignored path="flow.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +34,8 @@
       <file leaf-file-name="lagrangian.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/flow/lagrangian.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.845815">
-              <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
+            <state vertical-scroll-proportion="-0.057268724">
+              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -585,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/flow/lagrangian.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.845815">
-          <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
+        <state vertical-scroll-proportion="-0.057268724">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
           <folding />
         </state>
       </provider>
