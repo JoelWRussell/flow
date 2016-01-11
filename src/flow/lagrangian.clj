@@ -110,7 +110,7 @@
         [true-score true-norm] (lagrange-score-internal pd interval vars d-vars expr)
         [fake-score fake-norm] (lagrange-score-internal fake-pd1 interval vars d-vars expr)
         ]
-    [true-score fake-score true-norm])
+    [true-score fake-score true-norm ])
   )
 
 (defn lagrange-score-mmd
@@ -124,3 +124,6 @@
       (* (/ (+ 1e-10 true-score) (+ 1e-10 fake-score))
          (target-unity true-norm)
          (target-unity fake-score)))))
+
+(defn hey
+  (print "hey") )
